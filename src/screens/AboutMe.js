@@ -12,15 +12,15 @@ export default class ServicesSccreen extends Component {
         gridSizeX: 0,
         gridSizeY: 0,
         messages: [
-            "Hey! I'm Mehedi Hassan!",
-            "I live in London, studying Computer Science at QMUL and currently looking for internships 🤓",
+            "Hey! I'm Pallavi Gupta!",
+            "I live in Bhopal, studying Computer Science at VIT Chennai and currently looking for internships 🤓",
             "I love solving problems that tackle real-life challenges and design solutions that work effortlessly ⚡",
             "So far, my biggest project is Tweeten, one of the most popular Twitter clients for Windows and Mac with more than 1.3M downloads 🐣",
             "As a designer, creating beautiful, accessible, and intuitive interfaces is my priority 🙌",
             "I have experience working with the leading tech and programming languages. ",
             "Oh and, I love working on open-source software.",
             "I am incredibly passionate about using complex algorithms and data structures to help build efficient, fast, and effortless software 👨‍👩‍👦‍👦",
-            "Currently, I am looking for a tech-related product or software engineering internship for 2020 🤟🏼",
+            "Currently, I am looking for a tech-related product or software engineering internship for 2023 🤟🏼",
             "I am always looking forward to learning new things.",
             "Plus, I've got a keen eye for details, and a lot of experience that could be a perfect fit for your company 🤙🏼",
             "let's work together! 👀"
@@ -85,12 +85,12 @@ export default class ServicesSccreen extends Component {
     return (
         <React.Fragment>
             <Helmet>
-                <title>about me // mehedi hassan.</title>
-                <meta name="description" content="A creative designer and developer based in London." />
+                <title>about me // Pallavi Gupta.</title>
+                <meta name="description" content="A creative designer and developer based in India." />
             </Helmet>
             <div className={`wrapper ${this.props.location.state && this.props.location.state.comeThru ? "no-bg" : ""}`} ref={this.aboutRef}>
                 <header>
-                    <Link to={{pathname: "/", state: {comeThru: true, animationEnd: this.state.animationEnd }}}><h1>mehedi hassan.</h1><span></span></Link>
+                    <Link to={{pathname: "/", state: {comeThru: true, animationEnd: this.state.animationEnd }}}><h1>Pallavi Gupta.</h1><span></span></Link>
                     <div>
                         <span></span><span className="alt"></span>
                     </div>
