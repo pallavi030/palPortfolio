@@ -36,12 +36,12 @@ export default class ContactScreen extends Component {
         <React.Fragment>
             <div className="wrapper no-bg">
                 <Helmet>
-                    <title>contact // mehedi hassan.</title>
-                    <meta name="description" content="A creative designer and developer based in London." />
+                    <title>contact // Pallavi Gupta.</title>
+                    <meta name="description" content="A creative designer and developer based in India." />
                 </Helmet>
 
                 <header>
-                    <Link to={{pathname: "/", state: { ...this.props.location.state, comeThru: true }}}><h1>mehedi hassan.</h1><span></span></Link>
+                    <Link to={{pathname: "/", state: { ...this.props.location.state, comeThru: true }}}><h1>Pallavi.</h1><span></span></Link>
                     <div>
                         <span></span><span className="alt"></span>
                     </div>
@@ -62,10 +62,10 @@ export default class ContactScreen extends Component {
 
                         <div class="socials">
                             <a href={pdf}>Download CV</a>
-                            <a href="mailto:meh@builtbymeh.com">Email</a>
-                            <a target="_blank" href="https://github.com/MehediH">GitHub</a>
-                            <a target="_blank" href="https://www.linkedin.com/in/meh-hassan/">LinkedIn</a>
-                            <a target="_blank" href="https://www.instagram.com/builtbymeh/">Instagram</a>
+                            <a href="pallavirkg2004@gmail.com">Email</a>
+                            <a target="_blank" href="https://github.com/Pallavi03">GitHub</a>
+                            <a target="_blank" href="https://www.linkedin.com/in/pallavi-gupta-2035b2208/">LinkedIn</a>
+                            <a target="_blank" href="https://instagram.com/pal_3154?igshid=MzMyNGUyNmU2YQ==">Instagram</a>
                         </div>
 
                     </div>
