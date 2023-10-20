@@ -1,4 +1,4 @@
-# ASTROTHUNDER
+# Pallavi030
 
 [![screenshot of builtbymeh.com](https://images.ctfassets.net/f1nnr97nijby/5LEmTAK4qAKQKiE6yAiE0K/c48df31bc72fee9ec0037fab67635b5f/astro.jpg)](https://builtbymeh.com)
 
